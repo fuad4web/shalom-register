@@ -1,0 +1,80 @@
+#header{padding: 0px 10px 10px 10px;box-shadow: 0px -5px 19px 10px lightblue;background: rgba(111, 24, 24, 1);color: white;margin-bottom: 50px;}
+#pie,#chart {display:inline-block;}
+#chart {width:65%;margin:10px;}
+#sub-menu{margin-top:-50px;}
+.class{border:1px solid grey; border-radius:5px; text-align:center;width:150px;margin:10px;padding:10px;float:left;cursor:pointer;position:relative;}
+.class:hover{box-shadow:0px 0px 10px black;} 
+.class:hover .delete-class-warning{display:block !important;position:absolute;top:-15px;right:-15px;border-radius:50%;} 
+.no-decoration{text-decoration:none !important;}
+#addClass{font-size: 80px;padding: 10px;}
+.modal-content{text-align:center;padding-bottom:20px;}
+.modal-content li{margin:5px;}
+.modal-content input,.modal-content select{margin:20px;width:92%;}
+.student-record{float:left;border:1px solid grey;margin:2px;padding:4px;width:175px;text-align:center;}
+#studentRecords{margin:10px;}
+.delete-class-warning{display:none !important;}
+.classes{cursor:pointer;margin:10px;font-size:20px;}
+.classes .list p{border:1px solid lightgrey;display:inline-block;margin:10px;padding:10px;font-size:14px !important;font-weight: 100 !important;}
+dd{margin:5px;}
+
+body .container form {
+    margin-bottom: 20px;
+}
+
+form .head-contain center .row {
+    margin: 20px auto;
+}
+
+.pre-header {
+    background-color: rgb(20, 169, 238);
+    padding: 0.8rem;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+/* .input-header {
+    margin: 40px 30px;
+} */
+.row-header, .header-buttons {
+    display: flex;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+.regNumber, .password {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 10px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.timein, .timeout {
+    margin: 10px 10px;
+    width: 95px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    outline: rgb(207, 95, 164);
+    color: rgb(100, 8, 248);
+    font-size: 17px;
+    font-weight: bold;
+    font-weight: 100;
+    background-color: rgb(230, 117, 192);
+}
+
+.timein:hover, .timeout:hover {
+    color: rgb(221, 18, 143);
+    background-color: royalblue;
+}
+
+form .choose-date {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+}
+form .choose-date input {
+    flex-basis: 30%;
+}
